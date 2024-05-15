@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A806D5F-E784-4F33-9803-C2FDFB228915}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{6A806D5F-E784-4F33-9803-C2FDFB228915}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="sfx_cavuum_succion_0 (1)" ID="{A57A496C-592D-4714-92E8-10E0F94103A8}" ShortID="1023499037">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_cavuum_succion_0 (1)" ID="{AFE17EE9-4413-4B52-A1D2-74FD659C01E8}">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>-1.8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>sfx_cavuum_succion_0 (1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="820596527"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_cavuum_succion_0 (1)" ID="{AFE17EE9-4413-4B52-A1D2-74FD659C01E8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

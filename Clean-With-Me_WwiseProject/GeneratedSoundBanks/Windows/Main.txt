@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3086197913	Player_suc_event			\Default Work Unit\Player_suc_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	820596527	sfx_cavuum_succion_0 (1)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (1)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)		84096
+

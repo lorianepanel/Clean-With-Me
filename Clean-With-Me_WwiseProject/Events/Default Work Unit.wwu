@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3E383D5F-33D9-4A79-8A8F-42A3CD1B67BB}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3E383D5F-33D9-4A79-8A8F-42A3CD1B67BB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Player_suc_event" ID="{634036FB-6593-4677-8E48-16DFEC116946}">
+					<ChildrenList>
+						<Action Name="" ID="{4D6C9E59-D33A-4948-BC19-629A136737F9}" ShortID="992899250">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_cavuum_succion_0 (1)" ID="{A57A496C-592D-4714-92E8-10E0F94103A8}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
