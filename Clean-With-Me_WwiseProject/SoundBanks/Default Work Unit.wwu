@@ -5,7 +5,13 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{94D89319-249B-4107-8410-BE5350BCA065}">
 					<ObjectInclusionList>
+						<ObjectRef Name="dildo" ID="{324AA62F-D84B-421D-8EBE-18D06EB32092}" WorkUnitID="{3E383D5F-33D9-4A79-8A8F-42A3CD1B67BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="book" ID="{2CD86129-A896-42CA-8884-851FD85521BA}" WorkUnitID="{3E383D5F-33D9-4A79-8A8F-42A3CD1B67BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="weed" ID="{26E6B8EF-8D43-45F7-B3C8-552F01B8D55C}" WorkUnitID="{3E383D5F-33D9-4A79-8A8F-42A3CD1B67BB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player_suc_event" ID="{634036FB-6593-4677-8E48-16DFEC116946}" WorkUnitID="{3E383D5F-33D9-4A79-8A8F-42A3CD1B67BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="watermeloon" ID="{F949509C-DFCE-48A2-AB57-9D45E5073F5A}" WorkUnitID="{3E383D5F-33D9-4A79-8A8F-42A3CD1B67BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hormones" ID="{F600C931-6204-4CBE-B5D1-EF72BE415BF9}" WorkUnitID="{3E383D5F-33D9-4A79-8A8F-42A3CD1B67BB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="usb_suc" ID="{55C5E57F-77C8-4F69-9012-58CD6003E107}" WorkUnitID="{3E383D5F-33D9-4A79-8A8F-42A3CD1B67BB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

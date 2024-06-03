@@ -535,6 +535,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4541708982151320822, guid: ed8ca959992ac40419fa54e1bcc48fb5, type: 3}
+      propertyPath: aspirationSound
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7752684774739750303, guid: ed8ca959992ac40419fa54e1bcc48fb5, type: 3}
       propertyPath: m_Enabled
       value: 0

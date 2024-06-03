@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 574c2eb978a6ba409040ff44a847f878
     GuidInternal: 
-    m_lastTime: -8584841709639760618
+    m_lastTime: -8584841635808801969
     List:
     - name: Main
       guid: 1993d8949b2407418410be5350bca065
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 5f3d383ed933794a8a8f42a3cd1b67bb
     GuidInternal: 
-    m_lastTime: -8584841670062725012
+    m_lastTime: -8584841635808590832
     List:
     - name: book
       guid: 2961d82c96a8ca428884851fd85521ba
@@ -262,8 +262,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 9519d08725d85b40860ec3b2e1f32162
     GuidInternal: 
-    m_lastTime: -8584841709640794026
-    List: []
+    m_lastTime: -8584841635808645978
+    List:
+    - name: start
+      guid: 8dfe016f577c2148a9213c2a6bb6a6fd
+      id: 1281810935
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9519d08725d85b40860ec3b2e1f32162
+      - ElementName: start
+        ObjectType: 13
+        guid: 8dfe016f577c2148a9213c2a6bb6a6fd
+      Path: Game Parameters\Default Work Unit\start
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -276,8 +290,42 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 2d127cd66678b344bd41cd3e92f80fc0
     GuidInternal: 
-    m_lastTime: -8584841709639676072
-    List: []
+    m_lastTime: -8584841635808867191
+    List:
+    - name: start
+      guid: 1d0ba19280925c41a76cd84c9c0c771e
+      id: 1281810935
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2d127cd66678b344bd41cd3e92f80fc0
+      - ElementName: start
+        ObjectType: 9
+        guid: 1d0ba19280925c41a76cd84c9c0c771e
+      Path: States\Default Work Unit\start
+      values:
+      - name: None
+        guid: 12f51e40c94aef49917c63378b14a031
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 2d127cd66678b344bd41cd3e92f80fc0
+        - ElementName: start
+          ObjectType: 9
+          guid: 1d0ba19280925c41a76cd84c9c0c771e
+        - ElementName: None
+          ObjectType: 8
+          guid: 12f51e40c94aef49917c63378b14a031
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -307,7 +355,7 @@ MonoBehaviour:
     m_lastTime: -8584841709639591648
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000b0000000c000000cf000000d0000000d1000000e1000000e2000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000b0000000c000000cf000000d0000000d1000000e1000000e2000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
