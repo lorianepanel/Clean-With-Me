@@ -8,12 +8,152 @@
 						<Action Name="" ID="{4D6C9E59-D33A-4948-BC19-629A136737F9}" ShortID="992899250">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="sfx_cavuum_succion_0 (1)" ID="{A57A496C-592D-4714-92E8-10E0F94103A8}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+									<ObjectRef Name="sfx_cavuum_succion_0 (1)" ID="{2A69823E-CD86-4125-9AE9-AEC5419219AF}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="collectibles" ID="{F2CB863A-2403-40E9-AA7D-4474F76D5F23}" ShortID="36547991">
+					<ChildrenList>
+						<Event Name="usb_suc" ID="{55C5E57F-77C8-4F69-9012-58CD6003E107}">
+							<ChildrenList>
+								<Action Name="" ID="{B1306F77-59FF-4D13-AEB9-7E240391EE0A}" ShortID="644044863">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_cavuum_succion_0 (1)" ID="{2A69823E-CD86-4125-9AE9-AEC5419219AF}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E18154AE-724A-41FE-8305-708935ED97D7}" ShortID="84304034">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_succion_usb" ID="{4F814555-A369-4190-B3F6-86AED3F16A0A}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="hormones" ID="{F600C931-6204-4CBE-B5D1-EF72BE415BF9}">
+							<ChildrenList>
+								<Action Name="" ID="{19F41E7D-F92C-4980-9DA5-71FD4075F97B}" ShortID="372322069">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_cavuum_succion_0 (1)" ID="{2A69823E-CD86-4125-9AE9-AEC5419219AF}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1D7FA724-AB27-4228-A0CE-CCA811A0E77B}" ShortID="961904202">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_succion_pills" ID="{07FEA47D-75C4-4AE5-802C-6CC37DE889DF}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="dildo" ID="{324AA62F-D84B-421D-8EBE-18D06EB32092}">
+							<ChildrenList>
+								<Action Name="" ID="{C4ED22DF-22B0-4087-8D79-D13026B37708}" ShortID="1059982584">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_cavuum_succion_0 (1)" ID="{2A69823E-CD86-4125-9AE9-AEC5419219AF}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{24956F02-F707-4D41-86BD-8118A04D8075}" ShortID="986328246">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_succion_dildo" ID="{D6E701A7-C1A2-400C-A2F7-EB806D7F57CE}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="book" ID="{2CD86129-A896-42CA-8884-851FD85521BA}">
+							<ChildrenList>
+								<Action Name="" ID="{F476E5A6-11B8-4687-8363-EEDDE07F6B27}" ShortID="703234640">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_cavuum_succion_0 (1)" ID="{2A69823E-CD86-4125-9AE9-AEC5419219AF}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1AE3520A-E209-4603-8DF4-39D9BAA32D66}" ShortID="792803754">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.13"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_succion_Paper" ID="{0CFB6038-A477-4D84-9CAC-F41E65C4BA8F}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="weed" ID="{26E6B8EF-8D43-45F7-B3C8-552F01B8D55C}">
+							<ChildrenList>
+								<Action Name="" ID="{92B3659A-3F48-4D3C-9C47-3E70C8C3D396}" ShortID="482309301">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_cavuum_succion_0 (1)" ID="{2A69823E-CD86-4125-9AE9-AEC5419219AF}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D085C2C1-40A9-4CB3-9AB0-33AE5F64CBFF}" ShortID="259023364">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.13"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_succion_weed" ID="{F52E6F49-A37D-48FD-9B23-4DEC710140D2}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="watermeloon" ID="{F949509C-DFCE-48A2-AB57-9D45E5073F5A}">
+							<ChildrenList>
+								<Action Name="" ID="{92F9D63D-B31F-41EE-9C4C-61CC2606C2C3}" ShortID="183419590">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_cavuum_succion_0 (1)" ID="{2A69823E-CD86-4125-9AE9-AEC5419219AF}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CF6C716D-7E46-4241-B842-0CA7A3984D2E}" ShortID="780441805">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_succion_watermeloon" ID="{CB91C1C4-CDCF-4488-BACB-A7339A874C5B}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{13332EF3-8FEF-4FED-A6E2-998312E1BB8D}" ShortID="704374732">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.13"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_succion_Paper" ID="{0CFB6038-A477-4D84-9CAC-F41E65C4BA8F}" WorkUnitID="{6A806D5F-E784-4F33-9803-C2FDFB228915}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -3,7 +3,17 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{6A806D5F-E784-4F33-9803-C2FDFB228915}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="sfx_cavuum_succion_0 (1)" ID="{A57A496C-592D-4714-92E8-10E0F94103A8}" ShortID="1023499037">
+				<RandomSequenceContainer Name="sfx_cavuum_succion_0 (1)" ID="{2A69823E-CD86-4125-9AE9-AEC5419219AF}" ShortID="973264401">
+					<PropertyList>
+						<Property Name="GlobalOrPerObject" Type="int16" Value="0"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
@@ -13,23 +23,372 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="sfx_cavuum_succion_0 (1)" ID="{AFE17EE9-4413-4B52-A1D2-74FD659C01E8}">
-							<PropertyList>
-								<Property Name="VolumeOffset" Type="Real64">
-									<ValueList>
-										<Value>-1.8</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="sfx_cavuum_succion_0 (1)" ID="{4C1D6A14-AB4F-4BD9-A3D7-239774B18C97}" ShortID="614492842">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cavuum_succion_0 (1)" ID="{91BB6A95-76B0-4E68-B557-D4F2599CE7E4}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_cavuum_succion_0 (1).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="820596527"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cavuum_succion_0 (1)" ID="{91BB6A95-76B0-4E68-B557-D4F2599CE7E4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cavuum_succion_0 (2)" ID="{2D31B5C3-CBCF-487C-BB15-EA8FDA684A8B}" ShortID="226152380">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cavuum_succion_0 (2)" ID="{1A914BAF-C794-4791-B13C-64DF38AC6A9B}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_cavuum_succion_0 (2).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="112191890"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cavuum_succion_0 (2)" ID="{1A914BAF-C794-4791-B13C-64DF38AC6A9B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cavuum_succion_0 (3)" ID="{D81C98DA-1C35-4AD8-A4CA-AA1383E3A408}" ShortID="893562383">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cavuum_succion_0 (3)" ID="{A70F9A9B-1784-4401-9A59-D9FB26EB8D95}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_cavuum_succion_0 (3).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1005822997"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cavuum_succion_0 (3)" ID="{A70F9A9B-1784-4401-9A59-D9FB26EB8D95}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cavuum_succion_0 (4)" ID="{698B8974-7D93-43DE-AB09-E4FAD1C88120}" ShortID="480758857">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cavuum_succion_0 (4)" ID="{5291C59C-2593-40CD-9009-BBFA83341587}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_cavuum_succion_0 (4).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="391310857"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cavuum_succion_0 (4)" ID="{5291C59C-2593-40CD-9009-BBFA83341587}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cavuum_succion_0 (5)" ID="{D85DB173-65D3-4CF8-8B4F-A40FABE67C07}" ShortID="629336225">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cavuum_succion_0 (5)" ID="{6CADDBEB-7BB5-47E4-918F-B97581575242}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_cavuum_succion_0 (5).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="585453182"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cavuum_succion_0 (5)" ID="{6CADDBEB-7BB5-47E4-918F-B97581575242}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cavuum_succion_0 (6)" ID="{E64A5C1B-3D06-4B17-9422-C66AE096385F}" ShortID="476897198">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cavuum_succion_0 (6)" ID="{EEA0DAE8-C185-409A-BDAF-222AA4FDA193}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_cavuum_succion_0 (6).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="616230289"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cavuum_succion_0 (6)" ID="{EEA0DAE8-C185-409A-BDAF-222AA4FDA193}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cavuum_succion_0 (7)" ID="{F4429226-558B-4BCB-89C7-54D36F2A6825}" ShortID="168980017">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cavuum_succion_0 (7)" ID="{78E9B877-7269-464E-9D2E-602C71B21E7A}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_cavuum_succion_0 (7).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="407798427"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cavuum_succion_0 (7)" ID="{78E9B877-7269-464E-9D2E-602C71B21E7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cavuum_succion_0 (8)" ID="{36BE0CAC-80CC-404A-AFC2-71648E1A51A4}" ShortID="433319925">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cavuum_succion_0 (8)" ID="{4DD2B18B-188D-49DE-AB23-1D97E076E60F}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_cavuum_succion_0 (8).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="281398588"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cavuum_succion_0 (8)" ID="{4DD2B18B-188D-49DE-AB23-1D97E076E60F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_cavuum_succion_0 (9)" ID="{2E1AC5B0-B630-463D-9F79-B0F1C3A02D57}" ShortID="922384277">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_cavuum_succion_0 (9)" ID="{3A75E166-7ECF-4D20-AAD0-B7318DFEAD43}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_cavuum_succion_0 (9).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="589089473"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_cavuum_succion_0 (9)" ID="{3A75E166-7ECF-4D20-AAD0-B7318DFEAD43}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="sfx_succion_cloth" ID="{FFD1B850-0411-49C1-99D9-8147711004A4}" ShortID="917534734">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_succion_cloth" ID="{304DC8B9-2930-4377-9F6E-74104F383574}">
 							<Language>SFX</Language>
-							<AudioFile>sfx_cavuum_succion_0 (1).wav</AudioFile>
+							<AudioFile>sfx_succion_cloth.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="820596527"/>
+								<MediaID ID="876566593"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="sfx_cavuum_succion_0 (1)" ID="{AFE17EE9-4413-4B52-A1D2-74FD659C01E8}" Platform="Linked"/>
+						<ActiveSource Name="sfx_succion_cloth" ID="{304DC8B9-2930-4377-9F6E-74104F383574}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_succion_dildo" ID="{D6E701A7-C1A2-400C-A2F7-EB806D7F57CE}" ShortID="533739384">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_succion_dildo" ID="{ECEA4C04-A702-4835-B9E0-BECCE481A6ED}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_succion_dildo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="451182138"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_succion_dildo" ID="{ECEA4C04-A702-4835-B9E0-BECCE481A6ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_succion_Paper" ID="{0CFB6038-A477-4D84-9CAC-F41E65C4BA8F}" ShortID="1013564201">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_succion_Paper" ID="{78602972-4234-471A-A784-33A1BB35DA55}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_succion_Paper.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="286950668"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_succion_Paper" ID="{78602972-4234-471A-A784-33A1BB35DA55}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_succion_pills" ID="{07FEA47D-75C4-4AE5-802C-6CC37DE889DF}" ShortID="653112319">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_succion_pills" ID="{43776876-A5B2-4DAF-8288-03EC26F1B834}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_succion_pills.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="566340864"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_succion_pills" ID="{43776876-A5B2-4DAF-8288-03EC26F1B834}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_succion_usb" ID="{4F814555-A369-4190-B3F6-86AED3F16A0A}" ShortID="227130151">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_succion_usb" ID="{A792EA9C-404D-44D2-9A65-BE41909DFCCF}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_succion_usb.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="947288451"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_succion_usb" ID="{A792EA9C-404D-44D2-9A65-BE41909DFCCF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_succion_watermeloon" ID="{CB91C1C4-CDCF-4488-BACB-A7339A874C5B}" ShortID="292553951">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_succion_watermeloon" ID="{75C39910-7AE1-49B9-89B1-4BFF5A076E38}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_succion_watermeloon.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1070764134"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_succion_watermeloon" ID="{75C39910-7AE1-49B9-89B1-4BFF5A076E38}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="sfx_succion_weed" ID="{F52E6F49-A37D-48FD-9B23-4DEC710140D2}" ShortID="854059871">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8979A0DB-9CA0-4E92-ACC0-806A6E7DD1F9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5169D05B-477F-45D2-9E81-49B86FE496C6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sfx_succion_weed" ID="{3BD74EE1-757A-47DE-B5D5-427F89FF99DE}">
+							<Language>SFX</Language>
+							<AudioFile>sfx_succion_weed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="91438224"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sfx_succion_weed" ID="{3BD74EE1-757A-47DE-B5D5-427F89FF99DE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

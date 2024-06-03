@@ -135,7 +135,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36720209}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5bb8c57b21c028540ab7c510baa2fd59, type: 3}
   m_Name: 
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_listeners:
     initialListenerList:
-    - {fileID: 0}
+    - {fileID: 776006296}
     useDefaultListeners: 1
   isEnvironmentAware: 0
   isStaticObject: 0
@@ -360,6 +360,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1839817851866413910, guid: ed8ca959992ac40419fa54e1bcc48fb5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7752684774739750303, guid: ed8ca959992ac40419fa54e1bcc48fb5, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8045714570882360992, guid: ed8ca959992ac40419fa54e1bcc48fb5, type: 3}

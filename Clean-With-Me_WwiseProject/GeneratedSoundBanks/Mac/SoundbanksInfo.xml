@@ -22,23 +22,63 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0FDE31B9-A0B2-B831-B4B1-94889A4D1855}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{7C8BDA74-79A5-C4B0-00B1-738A129E7104}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="112191890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (2).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (2)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="281398588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (8).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (8)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="391310857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (4).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (4)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="407798427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (7).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (7)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="585453182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (5).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (5)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="589089473" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (9).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (9)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="616230289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (6).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (6)_818F3B66.wem</CachePath>
+				</File>
 				<File Id="820596527" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_cavuum_succion_0 (1).wav</ShortName>
 					<CachePath>SFX/sfx_cavuum_succion_0 (1)_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1005822997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (3).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (3)_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="3086197913" Name="Player_suc_event" DurationType="OneShot" DurationMin="0.4375" DurationMax="0.4375">
+				<Event Id="3086197913" Name="Player_suc_event" DurationType="OneShot" DurationMin="0.3729375" DurationMax="0.75">
 					<MediaRefs>
+						<MediaRef Id="112191890"/>
+						<MediaRef Id="281398588"/>
+						<MediaRef Id="391310857"/>
+						<MediaRef Id="407798427"/>
+						<MediaRef Id="585453182"/>
+						<MediaRef Id="589089473"/>
+						<MediaRef Id="616230289"/>
 						<MediaRef Id="820596527"/>
+						<MediaRef Id="1005822997"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8A15A0C6-F0C2-8838-9C89-D3FAA04917A4}</FileHash>
+	<FileHash>{344D59E7-119F-9CB3-CDB8-37B7FB9949F6}</FileHash>
 </SoundBanksInfo>

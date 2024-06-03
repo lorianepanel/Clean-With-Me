@@ -1,6 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
+	951281488	watermeloon			\Default Work Unit\collectibles\watermeloon	
+	1421486018	weed			\Default Work Unit\collectibles\weed	
+	1761501022	book			\Default Work Unit\collectibles\book	
+	2994491175	usb_suc			\Default Work Unit\collectibles\usb_suc	
 	3086197913	Player_suc_event			\Default Work Unit\Player_suc_event	
+	3491598810	hormones			\Default Work Unit\collectibles\hormones	
+	4207106887	dildo			\Default Work Unit\collectibles\dildo	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	820596527	sfx_cavuum_succion_0 (1)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (1)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)		84096
+	91438224	sfx_succion_weed	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_succion_weed_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_succion_weed		148716
+	112191890	sfx_cavuum_succion_0 (2)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (2)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)\sfx_cavuum_succion_0 (2)		71700
+	281398588	sfx_cavuum_succion_0 (8)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (8)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)\sfx_cavuum_succion_0 (8)		111008
+	286950668	sfx_succion_Paper	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_succion_Paper_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_succion_Paper		95666
+	391310857	sfx_cavuum_succion_0 (4)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (4)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)\sfx_cavuum_succion_0 (4)		101072
+	407798427	sfx_cavuum_succion_0 (7)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (7)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)\sfx_cavuum_succion_0 (7)		144096
+	451182138	sfx_succion_dildo	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_succion_dildo_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_succion_dildo		36196
+	566340864	sfx_succion_pills	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_succion_pills_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_succion_pills		67038
+	585453182	sfx_cavuum_succion_0 (5)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (5)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)\sfx_cavuum_succion_0 (5)		108068
+	589089473	sfx_cavuum_succion_0 (9)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (9)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)\sfx_cavuum_succion_0 (9)		132540
+	616230289	sfx_cavuum_succion_0 (6)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (6)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)\sfx_cavuum_succion_0 (6)		126924
+	820596527	sfx_cavuum_succion_0 (1)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (1)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)\sfx_cavuum_succion_0 (1)		84096
+	947288451	sfx_succion_usb	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_succion_usb_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_succion_usb		13764
+	1005822997	sfx_cavuum_succion_0 (3)	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_cavuum_succion_0 (3)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_cavuum_succion_0 (1)\sfx_cavuum_succion_0 (3)		97068
+	1070764134	sfx_succion_watermeloon	C:\Documents\git desk\Clean-With-Me\Clean-With-Me_WwiseProject\.cache\Windows\SFX\sfx_succion_watermeloon_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_succion_watermeloon		103480
 

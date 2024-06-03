@@ -13,7 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BOOK = 1761501022U;
+        static const AkUniqueID DILDO = 4207106887U;
+        static const AkUniqueID HORMONES = 3491598810U;
         static const AkUniqueID PLAYER_SUC_EVENT = 3086197913U;
+        static const AkUniqueID USB_SUC = 2994491175U;
+        static const AkUniqueID WATERMELOON = 951281488U;
+        static const AkUniqueID WEED = 1421486018U;
     } // namespace EVENTS
 
     namespace BANKS

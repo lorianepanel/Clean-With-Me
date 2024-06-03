@@ -22,23 +22,172 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0FDE31B9-A0B2-B831-B4B1-94889A4D1855}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{86EADFC8-CEA9-F109-B0B3-59E8E5A7B5D0}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="91438224" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_succion_weed.wav</ShortName>
+					<CachePath>SFX/sfx_succion_weed_818F3B66.wem</CachePath>
+				</File>
+				<File Id="112191890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (2).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (2)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="281398588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (8).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (8)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="286950668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_succion_Paper.wav</ShortName>
+					<CachePath>SFX/sfx_succion_Paper_818F3B66.wem</CachePath>
+				</File>
+				<File Id="391310857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (4).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (4)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="407798427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (7).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (7)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="451182138" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_succion_dildo.wav</ShortName>
+					<CachePath>SFX/sfx_succion_dildo_818F3B66.wem</CachePath>
+				</File>
+				<File Id="566340864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_succion_pills.wav</ShortName>
+					<CachePath>SFX/sfx_succion_pills_818F3B66.wem</CachePath>
+				</File>
+				<File Id="585453182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (5).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (5)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="589089473" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (9).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (9)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="616230289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (6).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (6)_818F3B66.wem</CachePath>
+				</File>
 				<File Id="820596527" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_cavuum_succion_0 (1).wav</ShortName>
 					<CachePath>SFX/sfx_cavuum_succion_0 (1)_818F3B66.wem</CachePath>
 				</File>
+				<File Id="947288451" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_succion_usb.wav</ShortName>
+					<CachePath>SFX/sfx_succion_usb_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1005822997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_cavuum_succion_0 (3).wav</ShortName>
+					<CachePath>SFX/sfx_cavuum_succion_0 (3)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1070764134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_succion_watermeloon.wav</ShortName>
+					<CachePath>SFX/sfx_succion_watermeloon_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="3086197913" Name="Player_suc_event" DurationType="OneShot" DurationMin="0.4375" DurationMax="0.4375">
+				<Event Id="1761501022" Name="book" DurationType="OneShot" DurationMin="1.1255208" DurationMax="1.1255208">
 					<MediaRefs>
+						<MediaRef Id="112191890"/>
+						<MediaRef Id="281398588"/>
+						<MediaRef Id="286950668"/>
+						<MediaRef Id="391310857"/>
+						<MediaRef Id="407798427"/>
+						<MediaRef Id="585453182"/>
+						<MediaRef Id="589089473"/>
+						<MediaRef Id="616230289"/>
 						<MediaRef Id="820596527"/>
+						<MediaRef Id="1005822997"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4207106887" Name="dildo" DurationType="OneShot" DurationMin="0.62604165" DurationMax="0.75">
+					<MediaRefs>
+						<MediaRef Id="112191890"/>
+						<MediaRef Id="281398588"/>
+						<MediaRef Id="391310857"/>
+						<MediaRef Id="407798427"/>
+						<MediaRef Id="451182138"/>
+						<MediaRef Id="585453182"/>
+						<MediaRef Id="589089473"/>
+						<MediaRef Id="616230289"/>
+						<MediaRef Id="820596527"/>
+						<MediaRef Id="1005822997"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3491598810" Name="hormones" DurationType="OneShot" DurationMin="0.9473125" DurationMax="0.9473125">
+					<MediaRefs>
+						<MediaRef Id="112191890"/>
+						<MediaRef Id="281398588"/>
+						<MediaRef Id="391310857"/>
+						<MediaRef Id="407798427"/>
+						<MediaRef Id="566340864"/>
+						<MediaRef Id="585453182"/>
+						<MediaRef Id="589089473"/>
+						<MediaRef Id="616230289"/>
+						<MediaRef Id="820596527"/>
+						<MediaRef Id="1005822997"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3086197913" Name="Player_suc_event" DurationType="OneShot" DurationMin="0.3729375" DurationMax="0.75">
+					<MediaRefs>
+						<MediaRef Id="112191890"/>
+						<MediaRef Id="281398588"/>
+						<MediaRef Id="391310857"/>
+						<MediaRef Id="407798427"/>
+						<MediaRef Id="585453182"/>
+						<MediaRef Id="589089473"/>
+						<MediaRef Id="616230289"/>
+						<MediaRef Id="820596527"/>
+						<MediaRef Id="1005822997"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2994491175" Name="usb_suc" DurationType="OneShot" DurationMin="0.392375" DurationMax="0.75">
+					<MediaRefs>
+						<MediaRef Id="112191890"/>
+						<MediaRef Id="281398588"/>
+						<MediaRef Id="391310857"/>
+						<MediaRef Id="407798427"/>
+						<MediaRef Id="585453182"/>
+						<MediaRef Id="589089473"/>
+						<MediaRef Id="616230289"/>
+						<MediaRef Id="820596527"/>
+						<MediaRef Id="947288451"/>
+						<MediaRef Id="1005822997"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="951281488" Name="watermeloon" DurationType="OneShot" DurationMin="2.0769167" DurationMax="2.0769167">
+					<MediaRefs>
+						<MediaRef Id="112191890"/>
+						<MediaRef Id="281398588"/>
+						<MediaRef Id="286950668"/>
+						<MediaRef Id="391310857"/>
+						<MediaRef Id="407798427"/>
+						<MediaRef Id="585453182"/>
+						<MediaRef Id="589089473"/>
+						<MediaRef Id="616230289"/>
+						<MediaRef Id="820596527"/>
+						<MediaRef Id="1005822997"/>
+						<MediaRef Id="1070764134"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1421486018" Name="weed" DurationType="OneShot" DurationMin="1.678125" DurationMax="1.678125">
+					<MediaRefs>
+						<MediaRef Id="91438224"/>
+						<MediaRef Id="112191890"/>
+						<MediaRef Id="281398588"/>
+						<MediaRef Id="391310857"/>
+						<MediaRef Id="407798427"/>
+						<MediaRef Id="585453182"/>
+						<MediaRef Id="589089473"/>
+						<MediaRef Id="616230289"/>
+						<MediaRef Id="820596527"/>
+						<MediaRef Id="1005822997"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{631895CC-6B8C-3F4A-422F-127C9AA666CF}</FileHash>
+	<FileHash>{7FF5E5C3-DB30-0A3F-BB7D-A49E31CF8D07}</FileHash>
 </SoundBanksInfo>
