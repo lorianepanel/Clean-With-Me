@@ -94,8 +94,85 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 5f3d383ed933794a8a8f42a3cd1b67bb
     GuidInternal: 
-    m_lastTime: -8584841709640863560
+    m_lastTime: -8584841670062725012
     List:
+    - name: book
+      guid: 2961d82c96a8ca428884851fd85521ba
+      id: 1761501022
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5f3d383ed933794a8a8f42a3cd1b67bb
+      - ElementName: collectibles
+        ObjectType: 4
+        guid: 3a86cbf20324e940aa7d4474f76d5f23
+      - ElementName: book
+        ObjectType: 3
+        guid: 2961d82c96a8ca428884851fd85521ba
+      Path: Events\Default Work Unit\collectibles\book
+      maxAttenuation: 0
+      maxDuration: 1.1255208
+      minDuration: 1.1255208
+    - name: collectibles
+      guid: 3a86cbf20324e940aa7d4474f76d5f23
+      id: 4237018540
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5f3d383ed933794a8a8f42a3cd1b67bb
+      - ElementName: collectibles
+        ObjectType: 4
+        guid: 3a86cbf20324e940aa7d4474f76d5f23
+      Path: Events\Default Work Unit\collectibles
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: dildo
+      guid: 2fa64a324bd81d428ebe18d06eb32092
+      id: 4207106887
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5f3d383ed933794a8a8f42a3cd1b67bb
+      - ElementName: collectibles
+        ObjectType: 4
+        guid: 3a86cbf20324e940aa7d4474f76d5f23
+      - ElementName: dildo
+        ObjectType: 3
+        guid: 2fa64a324bd81d428ebe18d06eb32092
+      Path: Events\Default Work Unit\collectibles\dildo
+      maxAttenuation: 0
+      maxDuration: 0.75
+      minDuration: 0.62604165
+    - name: hormones
+      guid: 31c900f60462be4cb5d1ef72be415bf9
+      id: 3491598810
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5f3d383ed933794a8a8f42a3cd1b67bb
+      - ElementName: collectibles
+        ObjectType: 4
+        guid: 3a86cbf20324e940aa7d4474f76d5f23
+      - ElementName: hormones
+        ObjectType: 3
+        guid: 31c900f60462be4cb5d1ef72be415bf9
+      Path: Events\Default Work Unit\collectibles\hormones
+      maxAttenuation: 0
+      maxDuration: 0.9473125
+      minDuration: 0.9473125
     - name: Player_suc_event
       guid: fb364063936577468e4816dfec116946
       id: 3086197913
@@ -111,8 +188,68 @@ MonoBehaviour:
         guid: fb364063936577468e4816dfec116946
       Path: Events\Default Work Unit\Player_suc_event
       maxAttenuation: 0
-      maxDuration: 0.4375
-      minDuration: 0.4375
+      maxDuration: 0.75
+      minDuration: 0.3729375
+    - name: usb_suc
+      guid: 7fe5c555c877694f901258cd6003e107
+      id: 2994491175
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5f3d383ed933794a8a8f42a3cd1b67bb
+      - ElementName: collectibles
+        ObjectType: 4
+        guid: 3a86cbf20324e940aa7d4474f76d5f23
+      - ElementName: usb_suc
+        ObjectType: 3
+        guid: 7fe5c555c877694f901258cd6003e107
+      Path: Events\Default Work Unit\collectibles\usb_suc
+      maxAttenuation: 0
+      maxDuration: 0.75
+      minDuration: 0.392375
+    - name: watermeloon
+      guid: 9c5049f9cedfa248ab579d45e5073f5a
+      id: 951281488
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5f3d383ed933794a8a8f42a3cd1b67bb
+      - ElementName: collectibles
+        ObjectType: 4
+        guid: 3a86cbf20324e940aa7d4474f76d5f23
+      - ElementName: watermeloon
+        ObjectType: 3
+        guid: 9c5049f9cedfa248ab579d45e5073f5a
+      Path: Events\Default Work Unit\collectibles\watermeloon
+      maxAttenuation: 0
+      maxDuration: 2.0769167
+      minDuration: 2.0769167
+    - name: weed
+      guid: efb8e626438df745b3c8552f01b8d55c
+      id: 1421486018
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5f3d383ed933794a8a8f42a3cd1b67bb
+      - ElementName: collectibles
+        ObjectType: 4
+        guid: 3a86cbf20324e940aa7d4474f76d5f23
+      - ElementName: weed
+        ObjectType: 3
+        guid: efb8e626438df745b3c8552f01b8d55c
+      Path: Events\Default Work Unit\collectibles\weed
+      maxAttenuation: 0
+      maxDuration: 1.678125
+      minDuration: 1.678125
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +307,7 @@ MonoBehaviour:
     m_lastTime: -8584841709639591648
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000b0000000c000000e1000000e2000000
+  ExpandedWaapiItemIds: 0500000006000000070000000b0000000c000000cf000000d0000000d1000000e1000000e2000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
